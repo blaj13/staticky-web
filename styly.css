@@ -1,0 +1,90 @@
+@import url ('https://fonts.googleapis.com/css2? family = Rubik: wght @ 300 & display = swap');
+
+* {box-sizing: border-box;}
+
+
+#container {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+ nav{
+     background: rgba(96,6,124,0.5);
+ }
+
+ nav ul{
+     width: 1300px;
+     margin: 0px auto;
+ }
+
+ nav ul li {
+     width: 310px;
+     list-style-type: none;
+     float: left;
+     text-align: center;
+     line-height: 50px;
+ }
+
+nav ul li a{
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-decoration: underline 0.5;
+}
+nav ul li a.active{
+    color: rgba(96,6,124);
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+a:hover{
+    color: rgba(96,6,124);
+    font-size:24pt;
+}
+
+h1 {
+    text-align: center;
+    font-size: ;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 10px;
+    margin-top: 0px;
+    color: rgb(96,6,124);
+}
+img {
+    border-radius: 50px;
+    width: 200px;
+    padding: 5px;
+    margin: 0px auto;
+    display: block;
+}
+
+img:hover{
+    width: 220px;
+}
+
+main{
+    background: url(pozadi.png);
+    background-size: 100%;
+    margin-top: 0 auto;
+}
+
+.kontakt {
+    text-align: right;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.copyright {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 0;
+    color: dimgray;
+}

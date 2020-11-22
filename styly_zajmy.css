@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+* {box-sizing: border-box;}
+
+#container {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+nav{
+    background: rgba(96,6,124,0.5);
+}
+
+nav ul{
+    width: 1300px;
+    margin: 0px auto;
+}
+
+nav ul li {
+    width: 310px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+
+nav ul li a{
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+nav ul li a.active{
+    color: rgb(96,6,124);
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+a:hover{
+    color: rgba(96,6,124);
+    font-size:24pt;
+}
+
+h1 {
+    text-align: left;
+    font-size: ;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 0px;
+    color: rgb(96,6,124);
+}
+.joga {
+    background:  rgba(96,6,124,0.5);
+    padding: 15px;
+    position: relative;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+h2{margin-top: 0px;}
+
+.cestovani {
+    background:  rgba(96,6,124,0.5);
+    padding: 15px;
+    position: relative;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 230px;
+    margin-top: -200px;
+}
+.priroda {
+    background:  rgba(96,6,124,0.5);
+    padding: 15px;
+    position: absolute;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 230px;
+    margin-top: 30px;
+}
+.malovani {
+    background: rgba(96,6,124,0.5);
+    padding: 15px;
+    position: relative;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+
+}
+img {
+    border-radius: 20px;
+    width: 90px;
+    padding: 5px;
+    float: left;
+    margin-top: 30px;
+    position: relative;
+}
+
+img:hover{
+    width: 100px;
+}
+
+main{
+    background: url(pozadi.png);
+    background-size: 100%;
+    padding: 30px;
+    height: 670px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.copyright {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 0;
+    color: dimgray;
+    position: absolute;
+}
